@@ -4,4 +4,4 @@ Windows Registry Editor Version 5.00
 @="Open &with &Emacs"
 
 [HKEY_CLASSES_ROOT\*\shell\Open with Emacs\command]
-@="\"C:\\Users\\Repel\\Desktop\\Open-Emacs-Here\\emacs.bat\" \"%1\""
+@="\"C:\\Users\\Repel\\Desktop\\Open-Emacs-Here\\emacs.bat\" \"%1%\" \"%1\" \"%2\""
