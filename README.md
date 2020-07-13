@@ -3,6 +3,7 @@
 
 ## Table of Contents
 * [General Info](#general-info)
+* [Features](#features)
 * [How to Get](#how-to-get)
 * [How to Use](#how-to-use)
   * [To add to context menu](#to-add-to-context-menu)
@@ -20,7 +21,15 @@
 <p align="center"> <i>Adding Emacs to Context Menu</i> </p>
 
 ## General Info
-&nbsp;&nbsp;&nbsp;&nbsp;WSL Context Menu Manager utilizes Windows's context menu for Linux tools with the ease of use. Although Windows specifies that file performance across the Windows and Linux operating systems is faster in WSL 1, some may still want to achieve that usability.
+&nbsp;&nbsp;&nbsp;&nbsp;WSL Context Menu Manager utilizes Windows' context menu for Linux tools with the ease of use. Although Windows specifies that file performance across the Windows and Linux operating systems is faster with WSL 1, some may still want to achieve that usability with WSL 2.
+
+## Features
+- Opening all files
+- Opening current directory
+- Custom icons in the context menu
+- GUI application support for WSL 2
+- Environment variables support
+- Custom launch arguments
 
 ## How to Get
 
@@ -35,6 +44,8 @@
 2. It will ask for admin privileges to manage registries in the system from Command Prompt. You'll be able to view context of last added registry. You can check the general content of constructed register in the screenshot down below.
 3. Answer the questions appropriately.
 
+You can connect launch arguments to the first question `What is your launch command in WSL?:`. Last argument will always be launch path.
+
 <p align="center"><img src="https://b.allthepics.net/Possible-Adding-Questions.png">
 <p align="center"> <i>Possible Adding Scenario</i> </p>
 
@@ -45,6 +56,8 @@
 1. Run `delete_from_context_menu.bat`. 
 2. It will ask for admin privileges to manage registries in the system from Command Prompt.
 3. Answer the questions appropriately.
+
+Answer to the first question `What is the app name you want to delete?:` should be identical to the first word of launch command you wrote while adding to context menu.
 
 <p align="center"><img src="https://b.allthepics.net/Possible-Deleting-Questionsxx.png">
 <p align="center"> <i>Possible Deleting Scenario</i> </p>
