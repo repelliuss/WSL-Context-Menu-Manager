@@ -38,13 +38,23 @@
 
 ## How to Use
 
+&nbsp;&nbsp;&nbsp;&nbsp; Before adding any tool to your context menu, decide where to put *WSL Context Menu Manager*. Don't change the directory name or location without deleting all the tools. You can always manually delete though.
+
 ### To add to context menu
 
 1. Run `add_to_context_menu.bat`. 
-2. It will ask for admin privileges to manage registries in the system from Command Prompt. You'll be able to view context of last added registry. You can check the general content of constructed register in the screenshot down below.
-3. Answer the questions appropriately.
+1. It will ask for admin privileges to manage registries in the system from Command Prompt. You'll be able to view context of last added registry. You can check the general content of constructed register in the screenshot down below.
+1. Answer the questions appropriately.
 
-You can connect launch arguments to the first question `What is your launch command in WSL?:`. Last argument will always be launch path.
+#### First Question: What is the launch command in WSL?
+&nbsp;&nbsp;&nbsp;&nbsp;The idea behind this, take the launch command user gave and append launch path with a blank space at the end. Creating a generic script for all the tools is hard. My assumption is, tools are capable of undestanding the string all alone at the end of launch command.
+
+&nbsp;&nbsp;&nbsp;&nbsp;If your tool doesn't understand the path at the end, you may need to use a specific command line option. Use that option at the end of your launch command. Leave its value empty because launch path will be appended to end of your launch command.
+
+&nbsp;&nbsp;&nbsp;&nbsp;You can always go to the `scripts` folder and edit the script of your tool manually to meet your needs.
+
+#### Second Question: Is this a GUI app?
+&nbsp;&nbsp;&nbsp;&nbsp; If you use a X Server for your app, you need to answer with `y`. Otherwise it shouldn't matter. 
 
 <p align="center"><img src="https://b.allthepics.net/Possible-Adding-Questions.png">
 <p align="center"> <i>Possible Adding Scenario</i> </p>
