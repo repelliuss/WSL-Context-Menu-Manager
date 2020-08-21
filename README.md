@@ -56,10 +56,10 @@
 #### Second Question: Is this a GUI app?
 &nbsp;&nbsp;&nbsp;&nbsp; If you use a X Server for your app, you need to answer with `y`. Otherwise it shouldn't matter. 
 
-<p align="center"><img src="https://images2.imgbox.com/78/61/Lk49q17F_o.png">
+<p align="center"><img src="https://i.imgur.com/O5YBK94.png">
 <p align="center"> <i>Possible Adding Scenario</i> </p>
 
-<p align="center"><img src="https://images2.imgbox.com/a8/56/GRf7ZZRZ_o.png">
+<p align="center"><img src="https://i.imgur.com/ah7N7KN.png">
 <p align="center"> <i>General Content of Constructed Register</i> </p>
 
 ### To delete from context menu
@@ -69,7 +69,7 @@
 
 Answer to the first question `What is the app name you want to delete?:` should be identical to the first word of launch command you wrote while adding to context menu.
 
-<p align="center"><img src="https://images2.imgbox.com/f7/c6/lJ8q8dVb_o.png">
+<p align="center"><img src="https://i.imgur.com/a1oQ4Ox.png">
 <p align="center"> <i>Possible Deleting Scenario</i> </p>
 
 ### Using custom icon
@@ -93,5 +93,5 @@ Answer to the first question `What is the app name you want to delete?:` should 
   2. Set its value to what you want to export in Linux.
   3. If you want to export multiple values to your `PATH`, seperate them with ` `, blank space.
 
-<p align="center"><img src="https://images2.imgbox.com/b9/2e/8GtELMHP_o.png">
+<p align="center"><img src="https://i.imgur.com/1IjCU7R.png">
 <p align="center"> <i>Environment Variables</i> </p>
