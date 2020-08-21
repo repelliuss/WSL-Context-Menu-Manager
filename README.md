@@ -56,10 +56,10 @@
 #### Second Question: Is this a GUI app?
 &nbsp;&nbsp;&nbsp;&nbsp; If you use a X Server for your app, you need to answer with `y`. Otherwise it shouldn't matter. 
 
-<p align="center"><img src="https://b.allthepics.net/Possible-Adding-Questions.png">
+<p align="center"><img src="https://images2.imgbox.com/78/61/Lk49q17F_o.png">
 <p align="center"> <i>Possible Adding Scenario</i> </p>
 
-<p align="center"><img src="https://b.allthepics.net/context-of-reg.png">
+<p align="center"><img src="https://images2.imgbox.com/a8/56/GRf7ZZRZ_o.png">
 <p align="center"> <i>General Content of Constructed Register</i> </p>
 
 ### To delete from context menu
@@ -69,7 +69,7 @@
 
 Answer to the first question `What is the app name you want to delete?:` should be identical to the first word of launch command you wrote while adding to context menu.
 
-<p align="center"><img src="https://b.allthepics.net/Possible-Deleting-Questionsxx.png">
+<p align="center"><img src="https://images2.imgbox.com/f7/c6/lJ8q8dVb_o.png">
 <p align="center"> <i>Possible Deleting Scenario</i> </p>
 
 ### Using custom icon
@@ -83,7 +83,7 @@ Answer to the first question `What is the app name you want to delete?:` should 
 
 &nbsp;&nbsp;&nbsp;&nbsp;If you export something to launch, then follow these instructions.
 
-1. Open `Edit environment variables for your account` in Windows. There is a screenshot below.
+1. Open `Edit environment variables for your account` in Windows.
 * If you're exporting your variable to your `PATH` variable,
   1. Add an environment variable named `WSLPATH` to Windows.
   2. Set its value to what you want to export in Linux.
@@ -92,9 +92,6 @@ Answer to the first question `What is the app name you want to delete?:` should 
   1. Add an environment variable named `WSLEXPORT`.
   2. Set its value to what you want to export in Linux.
   3. If you want to export multiple values to your `PATH`, seperate them with ` `, blank space.
-  
-<p align="center"><img src="https://b.allthepics.net/search-bar.png">
-<p align="center"> <i>Searching "Edit environment variables for your account"</i> </p>
 
-<p align="center"><img src="https://b.allthepics.net/env-vars.png">
+<p align="center"><img src="https://images2.imgbox.com/b9/2e/8GtELMHP_o.png">
 <p align="center"> <i>Environment Variables</i> </p>
